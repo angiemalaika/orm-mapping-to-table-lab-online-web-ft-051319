@@ -15,9 +15,8 @@ class Student
     (id INTEGER PRIMARY KEY,
     name TEXT,grade INTEGER)
     SQL
-  end 
-  
   # Remember, you can access your database connection anywhere in this class
-  DB[:conn].execute(sql)
+    DB[:conn].execute(sql)
+  end 
   
 end
